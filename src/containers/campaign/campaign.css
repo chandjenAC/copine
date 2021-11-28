@@ -1,0 +1,14 @@
+.campaign-form-root{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.campaign-form-container{
+    display: flex;
+    min-width: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

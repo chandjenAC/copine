@@ -1,0 +1,25 @@
+.form-header-root{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.form-header-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-header-progress-bar {
+    width: 75px;
+    border: 1px solid black;
+    height: 12px;
+}
+
+.form-header-progress-bar-complete {
+    background-color: black; 
+}
+

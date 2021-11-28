@@ -1,0 +1,39 @@
+.form-actions-root {
+    margin-top: 52px;
+    width: 100%;
+}
+
+.form-action-button {
+    cursor: pointer;
+    padding: 17px 52px ;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+button:disabled:hover,
+button[disabled]{
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed
+}
+
+.form-action-next-button {
+    background-color: black;
+    color: white;
+    float: right;
+}
+
+.form-action-next-button:hover {
+    background-color: #262927;
+}
+
+.form-action-back-button {
+    background-color: lightgrey;
+    color: black;
+    float: left;
+}
+
+.form-action-back-button:hover {
+    background-color:#d4d9d6;
+}
